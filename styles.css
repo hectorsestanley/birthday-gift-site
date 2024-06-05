@@ -1,0 +1,75 @@
+.hero {
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #a2d2ff;
+    background: linear-gradient(lightskyblue, white);
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gif {
+        font-family: "Happy Monkey", system-ui;
+        font-weight: 200;
+        font-style: normal;
+        align-items: center;
+        flex-direction: row;
+        text-align: center;
+        background-color: #a2d2ff;
+        padding-top: 10px;
+      }
+
+.profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 1000%;
+    border: 6px solid;
+    text-align: center;
+    border-color: #efb0c9;
+}
+
+h2, h4 {
+    background: #efb0c9;
+    padding: 4px;
+}
+
+.giftcover {
+    height: 400px;
+    width: 400px;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    border: 5px solid white;
+    background-image: url("gift-cover.avif");
+    background-size: cover;
+}
+
+.giftcover:hover {
+    background-image: url("rockrock.png");
+}
+
+.giftcover2 {
+    height: 400px;
+    width: 400px;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    border: 5px solid white;
+    background-image: url("gift-cover.avif");
+    background-size: cover;
+    background-color: #a2d2ff;
+}
+
+.giftcover2:hover {
+    background-image: url("rockrock.png");
+}
+
+.footerlink {
+    width: 400px;
+    margin: 40px auto 20px;
+    text-align: center;
+}
